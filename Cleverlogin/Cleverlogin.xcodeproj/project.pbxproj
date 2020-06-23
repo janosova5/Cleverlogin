@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE424A1F7E800278D4C /* AppDelegate.swift */; };
+		422B6AE724A1F7E800278D4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE624A1F7E800278D4C /* SceneDelegate.swift */; };
+		422B6AE924A1F7E800278D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE824A1F7E800278D4C /* ViewController.swift */; };
+		422B6AEC24A1F7E800278D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AEA24A1F7E800278D4C /* Main.storyboard */; };
+		422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AED24A1F7EF00278D4C /* Assets.xcassets */; };
+		422B6AF124A1F7EF00278D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AEF24A1F7EF00278D4C /* LaunchScreen.storyboard */; };
+		422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		422B6AF824A1F7F000278D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422B6AD924A1F7E800278D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422B6AE024A1F7E800278D4C;
+			remoteInfo = Cleverlogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		422B6AE124A1F7E800278D4C /* Cleverlogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleverlogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422B6AE424A1F7E800278D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		422B6AE624A1F7E800278D4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		422B6AE824A1F7E800278D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		422B6AEB24A1F7E800278D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422B6AED24A1F7EF00278D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422B6AF024A1F7EF00278D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		422B6AF224A1F7EF00278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleverloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleverloginTests.swift; sourceTree = "<group>"; };
+		422B6AFD24A1F7F000278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422B6ADE24A1F7E800278D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422B6AF424A1F7F000278D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422B6AD824A1F7E800278D4C = {
+			isa = PBXGroup;
+			children = (
+				422B6AE324A1F7E800278D4C /* Cleverlogin */,
+				422B6AFA24A1F7F000278D4C /* CleverloginTests */,
+				422B6AE224A1F7E800278D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		422B6AE224A1F7E800278D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422B6AE124A1F7E800278D4C /* Cleverlogin.app */,
+				422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422B6AE324A1F7E800278D4C /* Cleverlogin */ = {
+			isa = PBXGroup;
+			children = (
+				422B6AE424A1F7E800278D4C /* AppDelegate.swift */,
+				422B6AE624A1F7E800278D4C /* SceneDelegate.swift */,
+				422B6AE824A1F7E800278D4C /* ViewController.swift */,
+				422B6AEA24A1F7E800278D4C /* Main.storyboard */,
+				422B6AED24A1F7EF00278D4C /* Assets.xcassets */,
+				422B6AEF24A1F7EF00278D4C /* LaunchScreen.storyboard */,
+				422B6AF224A1F7EF00278D4C /* Info.plist */,
+			);
+			path = Cleverlogin;
+			sourceTree = "<group>";
+		};
+		422B6AFA24A1F7F000278D4C /* CleverloginTests */ = {
+			isa = PBXGroup;
+			children = (
+				422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */,
+				422B6AFD24A1F7F000278D4C /* Info.plist */,
+			);
+			path = CleverloginTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422B6AE024A1F7E800278D4C /* Cleverlogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422B6B0024A1F7F000278D4C /* Build configuration list for PBXNativeTarget "Cleverlogin" */;
+			buildPhases = (
+				422B6ADD24A1F7E800278D4C /* Sources */,
+				422B6ADE24A1F7E800278D4C /* Frameworks */,
+				422B6ADF24A1F7E800278D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cleverlogin;
+			productName = Cleverlogin;
+			productReference = 422B6AE124A1F7E800278D4C /* Cleverlogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		422B6AF624A1F7F000278D4C /* CleverloginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422B6B0324A1F7F000278D4C /* Build configuration list for PBXNativeTarget "CleverloginTests" */;
+			buildPhases = (
+				422B6AF324A1F7F000278D4C /* Sources */,
+				422B6AF424A1F7F000278D4C /* Frameworks */,
+				422B6AF524A1F7F000278D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422B6AF924A1F7F000278D4C /* PBXTargetDependency */,
+			);
+			name = CleverloginTests;
+			productName = CleverloginTests;
+			productReference = 422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422B6AD924A1F7E800278D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Lenka Janosova";
+				TargetAttributes = {
+					422B6AE024A1F7E800278D4C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					422B6AF624A1F7F000278D4C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 422B6AE024A1F7E800278D4C;
+					};
+				};
+			};
+			buildConfigurationList = 422B6ADC24A1F7E800278D4C /* Build configuration list for PBXProject "Cleverlogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422B6AD824A1F7E800278D4C;
+			productRefGroup = 422B6AE224A1F7E800278D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422B6AE024A1F7E800278D4C /* Cleverlogin */,
+				422B6AF624A1F7F000278D4C /* CleverloginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422B6ADF24A1F7E800278D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422B6AF124A1F7EF00278D4C /* LaunchScreen.storyboard in Resources */,
+				422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */,
+				422B6AEC24A1F7E800278D4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422B6AF524A1F7F000278D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422B6ADD24A1F7E800278D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422B6AE924A1F7E800278D4C /* ViewController.swift in Sources */,
+				422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */,
+				422B6AE724A1F7E800278D4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422B6AF324A1F7F000278D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422B6AF924A1F7F000278D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422B6AE024A1F7E800278D4C /* Cleverlogin */;
+			targetProxy = 422B6AF824A1F7F000278D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		422B6AEA24A1F7E800278D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422B6AEB24A1F7E800278D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		422B6AEF24A1F7EF00278D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422B6AF024A1F7EF00278D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422B6AFE24A1F7F000278D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		422B6AFF24A1F7F000278D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422B6B0124A1F7F000278D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A74JJ433GY;
+				INFOPLIST_FILE = Cleverlogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin.Cleverlogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		422B6B0224A1F7F000278D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A74JJ433GY;
+				INFOPLIST_FILE = Cleverlogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin.Cleverlogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		422B6B0424A1F7F000278D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A74JJ433GY;
+				INFOPLIST_FILE = CleverloginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin.CleverloginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleverlogin.app/Cleverlogin";
+			};
+			name = Debug;
+		};
+		422B6B0524A1F7F000278D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A74JJ433GY;
+				INFOPLIST_FILE = CleverloginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin.CleverloginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleverlogin.app/Cleverlogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422B6ADC24A1F7E800278D4C /* Build configuration list for PBXProject "Cleverlogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422B6AFE24A1F7F000278D4C /* Debug */,
+				422B6AFF24A1F7F000278D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422B6B0024A1F7F000278D4C /* Build configuration list for PBXNativeTarget "Cleverlogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422B6B0124A1F7F000278D4C /* Debug */,
+				422B6B0224A1F7F000278D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422B6B0324A1F7F000278D4C /* Build configuration list for PBXNativeTarget "CleverloginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422B6B0424A1F7F000278D4C /* Debug */,
+				422B6B0524A1F7F000278D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422B6AD924A1F7E800278D4C /* Project object */;
+}
