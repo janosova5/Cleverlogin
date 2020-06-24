@@ -6,11 +6,7 @@ target 'Cleverlogin' do
   use_frameworks!
 
   # Pods for Cleverlogin
-  pod 'ReactorKit'
-  pod 'RxSwift'
-  pod 'RxCocoa'	
   pod 'R.swift'
-  pod 'SwiftLint'
   pod 'Alamofire'
   pod 'CryptoSwift'
 

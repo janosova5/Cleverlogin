@@ -9,11 +9,39 @@
 import UIKit
 
 class ImageViewController: UIViewController {
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    private var viewModel: ImageViewModel?
 
+    // MARK: - Initialization
+    
+    static func create(viewModel: ImageViewModel) -> ImageViewController {
+        let controller = self.makeInstance()
+        controller.viewModel = viewModel
+        return controller
+    }
+    
+    //MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        viewModel?.setupViewDelegate(viewDelegate: self)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        viewModel?.showImage()
     }
 
+}
+
+extension ImageViewController: ImageViewDelegate {
+    
+    func imageViewModel(_ model: ImageViewModel, shouldShowImage image: UIImage) {
+        imageView.image = image
+    }
+    
 }

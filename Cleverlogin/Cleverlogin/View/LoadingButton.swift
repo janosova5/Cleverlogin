@@ -1,5 +1,5 @@
 //
-//  ImageReactor.swift
+//  LoadingButton.swift
 //  Cleverlogin
 //
 //  Created by Lenka Janosova on 24/06/2020.
@@ -7,9 +7,3 @@
 //
 
 import Foundation
-import RxSwift
-import ReactorKit
-
-final class ImageReactor: Reactor {
-
-}

@@ -9,7 +9,9 @@
 import Foundation
 import Alamofire
 
-class Service {
+final class Service {
+    
+    //MARK: Public
     
     func requestLogin(credentials: LoginCredentials, completion: @escaping (Result<CleverError, ImageString>) -> Void) {
         request(endpoint: .login(credentials), completion: { (response: Result<CleverError, ImageString>) in
@@ -24,7 +26,9 @@ class Service {
         })
     }
     
-    func request<T: Decodable>(endpoint: Endpoint, completion: @escaping (Result<CleverError, T>) -> Void ) {
+    //MARK: Private
+    
+    private func request<T: Decodable>(endpoint: Endpoint, completion: @escaping (Result<CleverError, T>) -> Void ) {
         
         if let request = try? endpoint.asURLRequest(baseURL: endpoint.baseURLDefault) {
             

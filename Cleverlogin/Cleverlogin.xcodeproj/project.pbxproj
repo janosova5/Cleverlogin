@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2D07766C9086451B4D262CB0 /* Pods_CleverloginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */; };
 		422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE424A1F7E800278D4C /* AppDelegate.swift */; };
-		422B6AE724A1F7E800278D4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE624A1F7E800278D4C /* SceneDelegate.swift */; };
-		422B6AEC24A1F7E800278D4C /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AEA24A1F7E800278D4C /* Image.storyboard */; };
 		422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AED24A1F7EF00278D4C /* Assets.xcassets */; };
 		422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */; };
 		422B6B0F24A2244400278D4C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B0E24A2244400278D4C /* Service.swift */; };
@@ -20,10 +18,15 @@
 		428228E924A254870030AE0A /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228E824A254870030AE0A /* LoginCredentials.swift */; };
 		428228ED24A26F910030AE0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228EC24A26F910030AE0A /* LoginViewController.swift */; };
 		428228EF24A36DA30030AE0A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228EE24A36DA30030AE0A /* String.swift */; };
-		428228F124A37EAC0030AE0A /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228F024A37EAC0030AE0A /* LoginReactor.swift */; };
 		428228F324A37ECD0030AE0A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428228F224A37ECD0030AE0A /* Login.storyboard */; };
 		428228F724A3818E0030AE0A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228F624A3818E0030AE0A /* ImageViewController.swift */; };
-		428228F924A381A40030AE0A /* ImageReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228F824A381A40030AE0A /* ImageReactor.swift */; };
+		428228FB24A3B0EC0030AE0A /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228FA24A3B0EC0030AE0A /* LoadingButton.swift */; };
+		428228FD24A3B1370030AE0A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228FC24A3B1370030AE0A /* LoginViewModel.swift */; };
+		428228FF24A3B1470030AE0A /* LoginViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228FE24A3B1470030AE0A /* LoginViewDelegate.swift */; };
+		4282290124A3B4C00030AE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290024A3B4C00030AE0A /* ViewController.swift */; };
+		4282290324A3BB990030AE0A /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290224A3BB990030AE0A /* ImageViewModel.swift */; };
+		4282290524A3BCF90030AE0A /* ImageViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290424A3BCF90030AE0A /* ImageViewDelegate.swift */; };
+		4282290924A3D3150030AE0A /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4282290824A3D3150030AE0A /* Image.storyboard */; };
 		F7DC629B8E683517A2D73237 /* Pods_Cleverlogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +45,6 @@
 		1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleverloginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE124A1F7E800278D4C /* Cleverlogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleverlogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE424A1F7E800278D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		422B6AE624A1F7E800278D4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		422B6AEB24A1F7E800278D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Image.storyboard; sourceTree = "<group>"; };
 		422B6AED24A1F7EF00278D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422B6AF224A1F7EF00278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleverloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,10 +57,15 @@
 		428228E824A254870030AE0A /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
 		428228EC24A26F910030AE0A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		428228EE24A36DA30030AE0A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		428228F024A37EAC0030AE0A /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
 		428228F224A37ECD0030AE0A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		428228F624A3818E0030AE0A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		428228F824A381A40030AE0A /* ImageReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageReactor.swift; sourceTree = "<group>"; };
+		428228FA24A3B0EC0030AE0A /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		428228FC24A3B1370030AE0A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		428228FE24A3B1470030AE0A /* LoginViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewDelegate.swift; sourceTree = "<group>"; };
+		4282290024A3B4C00030AE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4282290224A3BB990030AE0A /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		4282290424A3BCF90030AE0A /* ImageViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewDelegate.swift; sourceTree = "<group>"; };
+		4282290824A3D3150030AE0A /* Image.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Image.storyboard; sourceTree = "<group>"; };
 		8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.debug.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleverlogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.release.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				422B6AE424A1F7E800278D4C /* AppDelegate.swift */,
-				422B6AE624A1F7E800278D4C /* SceneDelegate.swift */,
 				422B6AF224A1F7EF00278D4C /* Info.plist */,
 				422B6AED24A1F7EF00278D4C /* Assets.xcassets */,
 			);
@@ -173,6 +178,7 @@
 				422B6B1B24A2413500278D4C /* Either.swift */,
 				422B6B1D24A2414A00278D4C /* Result.swift */,
 				428228EE24A36DA30030AE0A /* String.swift */,
+				4282290024A3B4C00030AE0A /* ViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 		428228EA24A254F30030AE0A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				428228FA24A3B0EC0030AE0A /* LoadingButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,8 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				428228F224A37ECD0030AE0A /* Login.storyboard */,
-				428228F024A37EAC0030AE0A /* LoginReactor.swift */,
 				428228EC24A26F910030AE0A /* LoginViewController.swift */,
+				428228FC24A3B1370030AE0A /* LoginViewModel.swift */,
+				428228FE24A3B1470030AE0A /* LoginViewDelegate.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -215,8 +223,9 @@
 			isa = PBXGroup;
 			children = (
 				428228F624A3818E0030AE0A /* ImageViewController.swift */,
-				428228F824A381A40030AE0A /* ImageReactor.swift */,
-				422B6AEA24A1F7E800278D4C /* Image.storyboard */,
+				4282290224A3BB990030AE0A /* ImageViewModel.swift */,
+				4282290424A3BCF90030AE0A /* ImageViewDelegate.swift */,
+				4282290824A3D3150030AE0A /* Image.storyboard */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -316,7 +325,7 @@
 			files = (
 				428228F324A37ECD0030AE0A /* Login.storyboard in Resources */,
 				422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */,
-				422B6AEC24A1F7E800278D4C /* Image.storyboard in Resources */,
+				4282290924A3D3150030AE0A /* Image.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,15 +407,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428228F924A381A40030AE0A /* ImageReactor.swift in Sources */,
 				428228ED24A26F910030AE0A /* LoginViewController.swift in Sources */,
+				428228FF24A3B1470030AE0A /* LoginViewDelegate.swift in Sources */,
 				428228E924A254870030AE0A /* LoginCredentials.swift in Sources */,
-				428228F124A37EAC0030AE0A /* LoginReactor.swift in Sources */,
 				428228EF24A36DA30030AE0A /* String.swift in Sources */,
+				4282290124A3B4C00030AE0A /* ViewController.swift in Sources */,
 				422B6B0F24A2244400278D4C /* Service.swift in Sources */,
+				4282290324A3BB990030AE0A /* ImageViewModel.swift in Sources */,
 				422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */,
-				422B6AE724A1F7E800278D4C /* SceneDelegate.swift in Sources */,
+				428228FB24A3B0EC0030AE0A /* LoadingButton.swift in Sources */,
 				422B6B1E24A2414A00278D4C /* Result.swift in Sources */,
+				4282290524A3BCF90030AE0A /* ImageViewDelegate.swift in Sources */,
+				428228FD24A3B1370030AE0A /* LoginViewModel.swift in Sources */,
 				422B6B1C24A2413500278D4C /* Either.swift in Sources */,
 				428228F724A3818E0030AE0A /* ImageViewController.swift in Sources */,
 				422B6B1524A226E500278D4C /* Endpoint.swift in Sources */,
@@ -430,17 +442,6 @@
 			targetProxy = 422B6AF824A1F7F000278D4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		422B6AEA24A1F7E800278D4C /* Image.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				422B6AEB24A1F7E800278D4C /* Base */,
-			);
-			name = Image.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		422B6AFE24A1F7F000278D4C /* Debug */ = {
@@ -575,7 +576,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				base_url = "\"https://mobility.cleverlance.com\"";
 			};
 			name = Debug;
 		};
@@ -597,7 +597,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				base_url = "\"https://mobility.cleverlance.com\"";
 			};
 			name = Release;
 		};
