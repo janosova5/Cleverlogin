@@ -3,17 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D07766C9086451B4D262CB0 /* Pods_CleverloginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */; };
 		422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE424A1F7E800278D4C /* AppDelegate.swift */; };
 		422B6AE724A1F7E800278D4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE624A1F7E800278D4C /* SceneDelegate.swift */; };
-		422B6AE924A1F7E800278D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE824A1F7E800278D4C /* ViewController.swift */; };
-		422B6AEC24A1F7E800278D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AEA24A1F7E800278D4C /* Main.storyboard */; };
+		422B6AEC24A1F7E800278D4C /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AEA24A1F7E800278D4C /* Image.storyboard */; };
 		422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AED24A1F7EF00278D4C /* Assets.xcassets */; };
-		422B6AF124A1F7EF00278D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AEF24A1F7EF00278D4C /* LaunchScreen.storyboard */; };
 		422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */; };
+		422B6B0F24A2244400278D4C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B0E24A2244400278D4C /* Service.swift */; };
+		422B6B1524A226E500278D4C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1424A226E500278D4C /* Endpoint.swift */; };
+		422B6B1C24A2413500278D4C /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1B24A2413500278D4C /* Either.swift */; };
+		422B6B1E24A2414A00278D4C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1D24A2414A00278D4C /* Result.swift */; };
+		428228E924A254870030AE0A /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228E824A254870030AE0A /* LoginCredentials.swift */; };
+		428228ED24A26F910030AE0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228EC24A26F910030AE0A /* LoginViewController.swift */; };
+		428228EF24A36DA30030AE0A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228EE24A36DA30030AE0A /* String.swift */; };
+		428228F124A37EAC0030AE0A /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228F024A37EAC0030AE0A /* LoginReactor.swift */; };
+		428228F324A37ECD0030AE0A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428228F224A37ECD0030AE0A /* Login.storyboard */; };
+		428228F724A3818E0030AE0A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228F624A3818E0030AE0A /* ImageViewController.swift */; };
+		428228F924A381A40030AE0A /* ImageReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228F824A381A40030AE0A /* ImageReactor.swift */; };
+		F7DC629B8E683517A2D73237 /* Pods_Cleverlogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +38,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverloginTests.debug.xcconfig"; path = "Target Support Files/Pods-CleverloginTests/Pods-CleverloginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleverloginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE124A1F7E800278D4C /* Cleverlogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleverlogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE424A1F7E800278D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		422B6AE624A1F7E800278D4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		422B6AE824A1F7E800278D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		422B6AEB24A1F7E800278D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422B6AEB24A1F7E800278D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Image.storyboard; sourceTree = "<group>"; };
 		422B6AED24A1F7EF00278D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		422B6AF024A1F7EF00278D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		422B6AF224A1F7EF00278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleverloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleverloginTests.swift; sourceTree = "<group>"; };
 		422B6AFD24A1F7F000278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422B6B0E24A2244400278D4C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		422B6B1424A226E500278D4C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		422B6B1B24A2413500278D4C /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
+		422B6B1D24A2414A00278D4C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		428228E824A254870030AE0A /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		428228EC24A26F910030AE0A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		428228EE24A36DA30030AE0A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		428228F024A37EAC0030AE0A /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
+		428228F224A37ECD0030AE0A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		428228F624A3818E0030AE0A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		428228F824A381A40030AE0A /* ImageReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageReactor.swift; sourceTree = "<group>"; };
+		8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.debug.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleverlogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.release.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.release.xcconfig"; sourceTree = "<group>"; };
+		D13D74163D57FCC9AF52D76B /* Pods-CleverloginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverloginTests.release.xcconfig"; path = "Target Support Files/Pods-CleverloginTests/Pods-CleverloginTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DC629B8E683517A2D73237 /* Pods_Cleverlogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +79,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D07766C9086451B4D262CB0 /* Pods_CleverloginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08604AF3138DAA0EFD8F0736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */,
+				CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */,
+				07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */,
+				D13D74163D57FCC9AF52D76B /* Pods-CleverloginTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		422B6AD824A1F7E800278D4C = {
 			isa = PBXGroup;
 			children = (
 				422B6AE324A1F7E800278D4C /* Cleverlogin */,
 				422B6AFA24A1F7F000278D4C /* CleverloginTests */,
 				422B6AE224A1F7E800278D4C /* Products */,
+				08604AF3138DAA0EFD8F0736 /* Pods */,
+				6165688947943AF275380535 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +120,13 @@
 		422B6AE324A1F7E800278D4C /* Cleverlogin */ = {
 			isa = PBXGroup;
 			children = (
-				422B6AE424A1F7E800278D4C /* AppDelegate.swift */,
-				422B6AE624A1F7E800278D4C /* SceneDelegate.swift */,
-				422B6AE824A1F7E800278D4C /* ViewController.swift */,
-				422B6AEA24A1F7E800278D4C /* Main.storyboard */,
-				422B6AED24A1F7EF00278D4C /* Assets.xcassets */,
-				422B6AEF24A1F7EF00278D4C /* LaunchScreen.storyboard */,
-				422B6AF224A1F7EF00278D4C /* Info.plist */,
+				428228EB24A254FD0030AE0A /* Scenes */,
+				428228EA24A254F30030AE0A /* View */,
+				428228E724A2546C0030AE0A /* Model */,
+				422B6B1A24A23F8500278D4C /* Extensions */,
+				422B6B1924A23E4E00278D4C /* Resources */,
+				422B6B1624A2336500278D4C /* Config */,
+				422B6B0D24A2242000278D4C /* Networking */,
 			);
 			path = Cleverlogin;
 			sourceTree = "<group>";
@@ -99,6 +140,96 @@
 			path = CleverloginTests;
 			sourceTree = "<group>";
 		};
+		422B6B0D24A2242000278D4C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				422B6B0E24A2244400278D4C /* Service.swift */,
+				422B6B1424A226E500278D4C /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		422B6B1624A2336500278D4C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		422B6B1924A23E4E00278D4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				422B6AE424A1F7E800278D4C /* AppDelegate.swift */,
+				422B6AE624A1F7E800278D4C /* SceneDelegate.swift */,
+				422B6AF224A1F7EF00278D4C /* Info.plist */,
+				422B6AED24A1F7EF00278D4C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		422B6B1A24A23F8500278D4C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				422B6B1B24A2413500278D4C /* Either.swift */,
+				422B6B1D24A2414A00278D4C /* Result.swift */,
+				428228EE24A36DA30030AE0A /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		428228E724A2546C0030AE0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				428228E824A254870030AE0A /* LoginCredentials.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		428228EA24A254F30030AE0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		428228EB24A254FD0030AE0A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				428228F524A380F00030AE0A /* Image */,
+				428228F424A380A40030AE0A /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		428228F424A380A40030AE0A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				428228F224A37ECD0030AE0A /* Login.storyboard */,
+				428228F024A37EAC0030AE0A /* LoginReactor.swift */,
+				428228EC24A26F910030AE0A /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		428228F524A380F00030AE0A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				428228F624A3818E0030AE0A /* ImageViewController.swift */,
+				428228F824A381A40030AE0A /* ImageReactor.swift */,
+				422B6AEA24A1F7E800278D4C /* Image.storyboard */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		6165688947943AF275380535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */,
+				1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422B6B0024A1F7F000278D4C /* Build configuration list for PBXNativeTarget "Cleverlogin" */;
 			buildPhases = (
+				DB4BAA7480EEB8344D0BCD9F /* [CP] Check Pods Manifest.lock */,
 				422B6ADD24A1F7E800278D4C /* Sources */,
 				422B6ADE24A1F7E800278D4C /* Frameworks */,
 				422B6ADF24A1F7E800278D4C /* Resources */,
+				406D4DC67E572CBDACECC357 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422B6B0324A1F7F000278D4C /* Build configuration list for PBXNativeTarget "CleverloginTests" */;
 			buildPhases = (
+				D77C657C16B11D6079DEA11A /* [CP] Check Pods Manifest.lock */,
 				422B6AF324A1F7F000278D4C /* Sources */,
 				422B6AF424A1F7F000278D4C /* Frameworks */,
 				422B6AF524A1F7F000278D4C /* Resources */,
@@ -180,9 +314,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422B6AF124A1F7EF00278D4C /* LaunchScreen.storyboard in Resources */,
+				428228F324A37ECD0030AE0A /* Login.storyboard in Resources */,
 				422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */,
-				422B6AEC24A1F7E800278D4C /* Main.storyboard in Resources */,
+				422B6AEC24A1F7E800278D4C /* Image.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +329,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		406D4DC67E572CBDACECC357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77C657C16B11D6079DEA11A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleverloginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4BAA7480EEB8344D0BCD9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cleverlogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		422B6ADD24A1F7E800278D4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422B6AE924A1F7E800278D4C /* ViewController.swift in Sources */,
+				428228F924A381A40030AE0A /* ImageReactor.swift in Sources */,
+				428228ED24A26F910030AE0A /* LoginViewController.swift in Sources */,
+				428228E924A254870030AE0A /* LoginCredentials.swift in Sources */,
+				428228F124A37EAC0030AE0A /* LoginReactor.swift in Sources */,
+				428228EF24A36DA30030AE0A /* String.swift in Sources */,
+				422B6B0F24A2244400278D4C /* Service.swift in Sources */,
 				422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */,
 				422B6AE724A1F7E800278D4C /* SceneDelegate.swift in Sources */,
+				422B6B1E24A2414A00278D4C /* Result.swift in Sources */,
+				422B6B1C24A2413500278D4C /* Either.swift in Sources */,
+				428228F724A3818E0030AE0A /* ImageViewController.swift in Sources */,
+				422B6B1524A226E500278D4C /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +432,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		422B6AEA24A1F7E800278D4C /* Main.storyboard */ = {
+		422B6AEA24A1F7E800278D4C /* Image.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				422B6AEB24A1F7E800278D4C /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		422B6AEF24A1F7EF00278D4C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				422B6AF024A1F7EF00278D4C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Image.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,42 +559,51 @@
 		};
 		422B6B0124A1F7F000278D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A74JJ433GY;
-				INFOPLIST_FILE = Cleverlogin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cleverlogin/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin.Cleverlogin;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				base_url = "\"https://mobility.cleverlance.com\"";
 			};
 			name = Debug;
 		};
 		422B6B0224A1F7F000278D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A74JJ433GY;
-				INFOPLIST_FILE = Cleverlogin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cleverlogin/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin.Cleverlogin;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				base_url = "\"https://mobility.cleverlance.com\"";
 			};
 			name = Release;
 		};
 		422B6B0424A1F7F000278D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +626,7 @@
 		};
 		422B6B0524A1F7F000278D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13D74163D57FCC9AF52D76B /* Pods-CleverloginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

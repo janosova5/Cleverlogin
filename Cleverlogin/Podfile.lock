@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (5.2.1)
+  - CryptoSwift (1.3.1)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - ReactorKit (2.1.0):
+    - RxSwift (~> 5.0)
+    - WeakMapTable (~> 1.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftLint (0.39.2)
+  - WeakMapTable (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CryptoSwift
+  - R.swift
+  - ReactorKit
+  - RxCocoa
+  - RxSwift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - R.swift
+    - R.swift.Library
+    - ReactorKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftLint
+    - WeakMapTable
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  CryptoSwift: f12f037f6d0fcd6d48c96db0071b653de64e6c4d
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  ReactorKit: 12a93358c554bb3f167b16b14c40374fa9cd5acd
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+  WeakMapTable: d0327eda092be6a8f7c532942ae98dc7948f5d32
+
+PODFILE CHECKSUM: 70e7b93b15a388dea4fe0668931a833db17389ef
+
+COCOAPODS: 1.9.3
