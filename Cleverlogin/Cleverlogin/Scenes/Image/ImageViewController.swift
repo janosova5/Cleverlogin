@@ -30,13 +30,11 @@ final class ImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         viewModel?.setupViewDelegate(viewDelegate: self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         viewModel?.showImage()
     }
 

@@ -10,7 +10,6 @@
 		2D07766C9086451B4D262CB0 /* Pods_CleverloginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */; };
 		422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE424A1F7E800278D4C /* AppDelegate.swift */; };
 		422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AED24A1F7EF00278D4C /* Assets.xcassets */; };
-		422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */; };
 		422B6B0F24A2244400278D4C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B0E24A2244400278D4C /* Service.swift */; };
 		422B6B1524A226E500278D4C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1424A226E500278D4C /* Endpoint.swift */; };
 		422B6B1E24A2414A00278D4C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1D24A2414A00278D4C /* Result.swift */; };
@@ -44,13 +43,11 @@
 /* Begin PBXFileReference section */
 		07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverloginTests.debug.xcconfig"; path = "Target Support Files/Pods-CleverloginTests/Pods-CleverloginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleverloginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		422B6AE124A1F7E800278D4C /* Cleverlogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleverlogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422B6AE124A1F7E800278D4C /* Janosova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janosova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE424A1F7E800278D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		422B6AED24A1F7EF00278D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422B6AF224A1F7EF00278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleverloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleverloginTests.swift; sourceTree = "<group>"; };
-		422B6AFD24A1F7F000278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422B6B0E24A2244400278D4C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		422B6B1424A226E500278D4C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		422B6B1D24A2414A00278D4C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -109,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				422B6AE324A1F7E800278D4C /* Cleverlogin */,
-				422B6AFA24A1F7F000278D4C /* CleverloginTests */,
 				422B6AE224A1F7E800278D4C /* Products */,
 				08604AF3138DAA0EFD8F0736 /* Pods */,
 				6165688947943AF275380535 /* Frameworks */,
@@ -119,7 +115,7 @@
 		422B6AE224A1F7E800278D4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				422B6AE124A1F7E800278D4C /* Cleverlogin.app */,
+				422B6AE124A1F7E800278D4C /* Janosova.app */,
 				422B6AF724A1F7F000278D4C /* CleverloginTests.xctest */,
 			);
 			name = Products;
@@ -137,15 +133,6 @@
 				422B6B0D24A2242000278D4C /* Networking */,
 			);
 			path = Cleverlogin;
-			sourceTree = "<group>";
-		};
-		422B6AFA24A1F7F000278D4C /* CleverloginTests */ = {
-			isa = PBXGroup;
-			children = (
-				422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */,
-				422B6AFD24A1F7F000278D4C /* Info.plist */,
-			);
-			path = CleverloginTests;
 			sourceTree = "<group>";
 		};
 		422B6B0D24A2242000278D4C /* Networking */ = {
@@ -261,7 +248,7 @@
 			);
 			name = Cleverlogin;
 			productName = Cleverlogin;
-			productReference = 422B6AE124A1F7E800278D4C /* Cleverlogin.app */;
+			productReference = 422B6AE124A1F7E800278D4C /* Janosova.app */;
 			productType = "com.apple.product-type.application";
 		};
 		422B6AF624A1F7F000278D4C /* CleverloginTests */ = {
@@ -433,7 +420,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +563,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Janosova;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -598,7 +584,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lenkajanosova.Cleverlogin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Janosova;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

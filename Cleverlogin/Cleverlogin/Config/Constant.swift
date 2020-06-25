@@ -36,6 +36,7 @@ enum C {
         static let connection = "No internet, check your connection."
         static let timedOut = "Request timed out."
         static let unknown = "Oops, unknown error."
+        static let validation = "Username and password are invalid. Please, correct your credentials."
     }
     
 }

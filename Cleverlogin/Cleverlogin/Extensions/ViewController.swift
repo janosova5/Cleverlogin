@@ -40,7 +40,7 @@ extension UIViewController {
         present(alertController, animated: true)
     }
     
-    func presentErrorResponseAlert(with message: String) {
+    func presentFailureAlert(with message: String) {
         presentAlert(title: C.Error.error, message: message)
     }
     

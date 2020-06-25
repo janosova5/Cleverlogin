@@ -32,18 +32,14 @@ final class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setup()
     }
     
     // MARK: - IBAction
     
     @IBAction func downloadClicked(_ sender: Any) {
-        let username = usernameTextField.text ?? ""
-        let password = passwordTextField.text ?? ""
-        
-        viewModel?.loadImage(with: LoginCredentials(username: username, password: password))
-        view.endEditing(true)
+        let credentials = LoginCredentials(username: usernameTextField.text ?? "", password: passwordTextField.text ?? "")
+        viewModel?.validateCredentials(credentials)
     }
     
     // MARK: - Private
@@ -56,8 +52,9 @@ final class LoginViewController: UIViewController {
     private func presentImageController(imageString: ImageString) {
         let imageViewModel = ImageViewModel(imageString: imageString)
         let controller = ImageViewController.create(viewModel: imageViewModel)
-        
         self.present(controller, animated: true, completion: nil)
+        
+        view.endEditing(true)
     }
 
 }
@@ -65,13 +62,21 @@ final class LoginViewController: UIViewController {
 
 extension LoginViewController: LoginViewDelegate {
     
+    func loginViewModel(_ model: LoginViewModel, didValidateCredentials credentials: LoginCredentials?) {
+        guard let credentials = credentials else {
+            presentFailureAlert(with: C.Error.validation)
+            return
+        }
+        viewModel?.loadImage(with: credentials)
+    }
+    
     func loginViewModelWillStartLoading(_ model: LoginViewModel) {
         downloadButton.isLoading = true
     }
     
     func loginViewModel(_ model: LoginViewModel, didEndLoadingWith error: CleverError) {
         downloadButton.isLoading = false
-        presentErrorResponseAlert(with: error.message())
+        presentFailureAlert(with: error.message())
     }
     
     func loginViewModel(_ model: LoginViewModel, didEndLoadingWith data: ImageString) {

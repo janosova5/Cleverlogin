@@ -13,6 +13,7 @@ import Foundation
 protocol LoginVM: class {
     
     func setupViewDelegate(viewDelegate: LoginViewDelegate)
+    func validateCredentials(_ credentials: LoginCredentials)
     func loadImage(with credentials: LoginCredentials)
     
 }
@@ -21,6 +22,7 @@ protocol LoginVM: class {
 
 protocol LoginViewDelegate: class {
     
+    func loginViewModel(_ model: LoginViewModel, didValidateCredentials credentials: LoginCredentials?)
     func loginViewModelWillStartLoading(_ model: LoginViewModel)
     func loginViewModel(_ model: LoginViewModel, didEndLoadingWith error: CleverError)
     func loginViewModel(_ model: LoginViewModel, didEndLoadingWith data: ImageString)

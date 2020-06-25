@@ -31,6 +31,11 @@ extension LoginViewModel: LoginVM {
         self.viewDelegate = viewDelegate
     }
     
+    func validateCredentials(_ credentials: LoginCredentials) {
+        let success = credentials.username != "" && credentials.password != ""
+        viewDelegate?.loginViewModel(self, didValidateCredentials: success ? credentials : nil)
+    }
+    
     func loadImage(with credentials: LoginCredentials) {
         service.requestLogin(credentials: credentials) { [weak self] response in
             if let `self` = self {
