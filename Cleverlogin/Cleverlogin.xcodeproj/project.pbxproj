@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D07766C9086451B4D262CB0 /* Pods_CleverloginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */; };
 		422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AE424A1F7E800278D4C /* AppDelegate.swift */; };
 		422B6AEE24A1F7EF00278D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B6AED24A1F7EF00278D4C /* Assets.xcassets */; };
 		422B6B0F24A2244400278D4C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B0E24A2244400278D4C /* Service.swift */; };
@@ -41,8 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverloginTests.debug.xcconfig"; path = "Target Support Files/Pods-CleverloginTests/Pods-CleverloginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleverloginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE124A1F7E800278D4C /* Janosova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janosova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B6AE424A1F7E800278D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		422B6AED24A1F7EF00278D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,7 +65,6 @@
 		8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.debug.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleverlogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.release.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.release.xcconfig"; sourceTree = "<group>"; };
-		D13D74163D57FCC9AF52D76B /* Pods-CleverloginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverloginTests.release.xcconfig"; path = "Target Support Files/Pods-CleverloginTests/Pods-CleverloginTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D07766C9086451B4D262CB0 /* Pods_CleverloginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +91,6 @@
 			children = (
 				8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */,
 				CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */,
-				07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */,
-				D13D74163D57FCC9AF52D76B /* Pods-CleverloginTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -224,7 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */,
-				1FB6FCE3812FB7DB147B0962 /* Pods_CleverloginTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,7 +247,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422B6B0324A1F7F000278D4C /* Build configuration list for PBXNativeTarget "CleverloginTests" */;
 			buildPhases = (
-				D77C657C16B11D6079DEA11A /* [CP] Check Pods Manifest.lock */,
 				422B6AF324A1F7F000278D4C /* Sources */,
 				422B6AF424A1F7F000278D4C /* Frameworks */,
 				422B6AF524A1F7F000278D4C /* Resources */,
@@ -344,28 +335,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D77C657C16B11D6079DEA11A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CleverloginTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB4BAA7480EEB8344D0BCD9F /* [CP] Check Pods Manifest.lock */ = {
@@ -592,7 +561,6 @@
 		};
 		422B6B0424A1F7F000278D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07976A9EABD04BCA2630BB47 /* Pods-CleverloginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -615,7 +583,6 @@
 		};
 		422B6B0524A1F7F000278D4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13D74163D57FCC9AF52D76B /* Pods-CleverloginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

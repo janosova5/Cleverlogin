@@ -6,13 +6,7 @@ target 'Cleverlogin' do
   use_frameworks!
 
   # Pods for Cleverlogin
-  pod 'R.swift'
   pod 'Alamofire'
   pod 'CryptoSwift'
-
-  target 'CleverloginTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
