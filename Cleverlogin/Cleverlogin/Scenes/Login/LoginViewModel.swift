@@ -47,9 +47,3 @@ extension LoginViewModel: LoginVM {
     }
     
 }
-
-// MARK: - Private Methods
-
-extension LoginViewModel {
-
-}

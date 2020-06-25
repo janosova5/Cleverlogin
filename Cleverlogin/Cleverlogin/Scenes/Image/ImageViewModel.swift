@@ -23,7 +23,7 @@ final class ImageViewModel {
     
 }
 
-// MARK: - LoginVM Methods
+// MARK: - ImageVM Methods
 
 extension ImageViewModel: ImageVM {
     

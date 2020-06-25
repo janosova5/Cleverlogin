@@ -12,15 +12,19 @@ import CryptoSwift
 
 enum Endpoint {
     
+    //MARK: Login endpoint
+    
     case login(LoginCredentials)
     
+    //MARK: Variables
+    
     var baseURLDefault: String {
-        return "https://mobility.cleverlance.com"
+        return C.Api.baseURL
     }
     
     private var path: String {
         switch self {
-        case .login: return "/download/bootcamp/image.php"
+        case .login: return C.Api.Endpoint.login
         }
     }
     
@@ -32,7 +36,7 @@ enum Endpoint {
     }
     
     private var defaultHeader: HTTPHeader {
-         return HTTPHeader(name: "Content-Type", value: "application/x-www-form-urlencoded")
+        return HTTPHeader(name: "Content-Type", value: C.Api.Header.contentType)
     }
     
     private var authorizationHeader: HTTPHeader? {
@@ -40,22 +44,8 @@ enum Endpoint {
         case .login(let credentials):
             let encryptedPassword = credentials.password.sha1()
             return HTTPHeader(name: "Authorization", value: encryptedPassword)
-        default: return nil
         }
-        
     }
-    
-    
-    //var parameters: Either<Parameters, Encodable>?  {
-        //switch self {
-        //case .login(let credentials):
-            //let parameters = ["username" : credentials.username]
-            
-            //return .left(parameters)
-        //case .login1(let username):
-            //return .right(username)
-        //}
-    //}
     
     private var parameterEncoder: ParameterEncoder {
         switch self {
@@ -66,10 +56,12 @@ enum Endpoint {
     private func encodeParameters(into request: URLRequest) throws -> URLRequest {
         switch self {
         case let .login(credentials):
-            let parameters = ["username" : credentials.username]
+            let parameters = [C.Api.Parameter.username : credentials.username]
             return try parameterEncoder.encode(parameters, into: request)
         }
     }
+    
+    //MARK: Request
     
     func asURLRequest(baseURL: String) throws -> URLRequest {
         var url = try baseURL.asURL()

@@ -30,3 +30,28 @@ extension Instantiable where Self: UIViewController {
 }
 
 extension UIViewController: Instantiable {}
+
+extension UIViewController {
+    
+    func presentAlert(title: String, message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertController.view.tintColor = UIColor.systemIndigo
+        alertController.addAction(UIAlertAction(title: C.Alert.titleOK, style: .default))
+        present(alertController, animated: true)
+    }
+    
+    func presentErrorResponseAlert(with message: String) {
+        presentAlert(title: C.Error.error, message: message)
+    }
+    
+    func hideKeyboardWhenTappedAround() {
+        let tapGesture = UITapGestureRecognizer(target: self,
+                         action: #selector(hideKeyboard))
+        view.addGestureRecognizer(tapGesture)
+    }
+
+    @objc private func hideKeyboard() {
+        view.endEditing(true)
+    }
+    
+}

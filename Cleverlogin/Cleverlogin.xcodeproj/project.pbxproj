@@ -13,7 +13,6 @@
 		422B6AFC24A1F7F000278D4C /* CleverloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6AFB24A1F7F000278D4C /* CleverloginTests.swift */; };
 		422B6B0F24A2244400278D4C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B0E24A2244400278D4C /* Service.swift */; };
 		422B6B1524A226E500278D4C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1424A226E500278D4C /* Endpoint.swift */; };
-		422B6B1C24A2413500278D4C /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1B24A2413500278D4C /* Either.swift */; };
 		422B6B1E24A2414A00278D4C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B6B1D24A2414A00278D4C /* Result.swift */; };
 		428228E924A254870030AE0A /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228E824A254870030AE0A /* LoginCredentials.swift */; };
 		428228ED24A26F910030AE0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428228EC24A26F910030AE0A /* LoginViewController.swift */; };
@@ -27,6 +26,8 @@
 		4282290324A3BB990030AE0A /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290224A3BB990030AE0A /* ImageViewModel.swift */; };
 		4282290524A3BCF90030AE0A /* ImageViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290424A3BCF90030AE0A /* ImageViewDelegate.swift */; };
 		4282290924A3D3150030AE0A /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4282290824A3D3150030AE0A /* Image.storyboard */; };
+		4282290B24A4E8690030AE0A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290A24A4E8690030AE0A /* Constant.swift */; };
+		4282290D24A4F0C30030AE0A /* ImageString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282290C24A4F0C30030AE0A /* ImageString.swift */; };
 		F7DC629B8E683517A2D73237 /* Pods_Cleverlogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +53,6 @@
 		422B6AFD24A1F7F000278D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422B6B0E24A2244400278D4C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		422B6B1424A226E500278D4C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		422B6B1B24A2413500278D4C /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
 		422B6B1D24A2414A00278D4C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		428228E824A254870030AE0A /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
 		428228EC24A26F910030AE0A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +66,8 @@
 		4282290224A3BB990030AE0A /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		4282290424A3BCF90030AE0A /* ImageViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewDelegate.swift; sourceTree = "<group>"; };
 		4282290824A3D3150030AE0A /* Image.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Image.storyboard; sourceTree = "<group>"; };
+		4282290A24A4E8690030AE0A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4282290C24A4F0C30030AE0A /* ImageString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageString.swift; sourceTree = "<group>"; };
 		8C3CE3DB25975FB1A351DFBA /* Pods-Cleverlogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.debug.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E6781C8482AF39D3DC3593 /* Pods_Cleverlogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleverlogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8E14D8BF7E55C0C31534B /* Pods-Cleverlogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleverlogin.release.xcconfig"; path = "Target Support Files/Pods-Cleverlogin/Pods-Cleverlogin.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		422B6B1624A2336500278D4C /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				4282290A24A4E8690030AE0A /* Constant.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -175,7 +178,6 @@
 		422B6B1A24A23F8500278D4C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				422B6B1B24A2413500278D4C /* Either.swift */,
 				422B6B1D24A2414A00278D4C /* Result.swift */,
 				428228EE24A36DA30030AE0A /* String.swift */,
 				4282290024A3B4C00030AE0A /* ViewController.swift */,
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				428228E824A254870030AE0A /* LoginCredentials.swift */,
+				4282290C24A4F0C30030AE0A /* ImageString.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -410,8 +413,10 @@
 				428228ED24A26F910030AE0A /* LoginViewController.swift in Sources */,
 				428228FF24A3B1470030AE0A /* LoginViewDelegate.swift in Sources */,
 				428228E924A254870030AE0A /* LoginCredentials.swift in Sources */,
+				4282290B24A4E8690030AE0A /* Constant.swift in Sources */,
 				428228EF24A36DA30030AE0A /* String.swift in Sources */,
 				4282290124A3B4C00030AE0A /* ViewController.swift in Sources */,
+				4282290D24A4F0C30030AE0A /* ImageString.swift in Sources */,
 				422B6B0F24A2244400278D4C /* Service.swift in Sources */,
 				4282290324A3BB990030AE0A /* ImageViewModel.swift in Sources */,
 				422B6AE524A1F7E800278D4C /* AppDelegate.swift in Sources */,
@@ -419,7 +424,6 @@
 				422B6B1E24A2414A00278D4C /* Result.swift in Sources */,
 				4282290524A3BCF90030AE0A /* ImageViewDelegate.swift in Sources */,
 				428228FD24A3B1370030AE0A /* LoginViewModel.swift in Sources */,
-				422B6B1C24A2413500278D4C /* Either.swift in Sources */,
 				428228F724A3818E0030AE0A /* ImageViewController.swift in Sources */,
 				422B6B1524A226E500278D4C /* Endpoint.swift in Sources */,
 			);

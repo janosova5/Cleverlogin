@@ -16,17 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qLM-v4-2Y3">
-                                <rect key="frame" x="157" y="398" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="XXw-FJ-SVf"/>
-                                    <constraint firstAttribute="height" constant="100" id="i0N-Wt-Oy7"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="qLM-v4-2Y3" firstAttribute="centerX" secondItem="kNl-ct-ZwP" secondAttribute="centerX" id="DE3-Xg-ErG"/>
-                            <constraint firstItem="qLM-v4-2Y3" firstAttribute="centerY" secondItem="kNl-ct-ZwP" secondAttribute="centerY" id="U1x-dc-XFe"/>
+                            <constraint firstItem="qLM-v4-2Y3" firstAttribute="leading" secondItem="MAH-Us-zuz" secondAttribute="leading" id="3et-KA-vVq"/>
+                            <constraint firstItem="MAH-Us-zuz" firstAttribute="bottom" secondItem="qLM-v4-2Y3" secondAttribute="bottom" id="Xu0-xW-tzf"/>
+                            <constraint firstItem="qLM-v4-2Y3" firstAttribute="top" secondItem="MAH-Us-zuz" secondAttribute="top" id="gCT-8j-yl9"/>
+                            <constraint firstItem="MAH-Us-zuz" firstAttribute="trailing" secondItem="qLM-v4-2Y3" secondAttribute="trailing" id="nVj-n0-CRD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MAH-Us-zuz"/>
                     </view>

@@ -13,16 +13,4 @@ struct LoginCredentials: Encodable {
     let username: String
     let password: String
     
-    enum CodingKeys: String, CodingKey {
-        case password = "authorization"
-    }
-}
-
-struct ImageString: Decodable {
-    
-    let stringValue: String
-    
-    enum CodingKeys: String, CodingKey {
-        case stringValue = "image"
-    }
 }

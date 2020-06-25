@@ -8,9 +8,13 @@
 
 import UIKit
 
-class ImageViewController: UIViewController {
+final class ImageViewController: UIViewController {
+    
+    // MARK: - Outlets
     
     @IBOutlet weak var imageView: UIImageView!
+    
+    // MARK: - Variables
     
     private var viewModel: ImageViewModel?
 
@@ -37,6 +41,8 @@ class ImageViewController: UIViewController {
     }
 
 }
+
+// MARK: - ImageViewDelegate
 
 extension ImageViewController: ImageViewDelegate {
     

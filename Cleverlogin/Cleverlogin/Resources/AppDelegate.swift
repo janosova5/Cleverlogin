@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let loginViewModel = LoginViewModel(service: Service())
+        let service = Service()
+        let loginViewModel = LoginViewModel(service: service)
         let controller = LoginViewController.create(viewModel: loginViewModel)
         
         window?.rootViewController = controller
@@ -25,7 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
 
 }
 

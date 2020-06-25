@@ -15,6 +15,7 @@ protocol ImageVM: class {
     
     func setupViewDelegate(viewDelegate: ImageViewDelegate)
     func showImage()
+    
 }
 
 // direction from view model to controller

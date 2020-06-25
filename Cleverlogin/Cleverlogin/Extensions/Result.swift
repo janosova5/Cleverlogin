@@ -18,9 +18,22 @@ enum Result<E, V> {
 
 enum CleverError: Error {
     
-    case unauthorized
     case notconnected
-    case unknown
     case timedOut
+    case unauthorized
+    case unknown
+    
+    func message() -> String {
+        switch self {
+        case .notconnected:
+            return C.Error.connection
+        case .timedOut:
+            return C.Error.timedOut
+        case .unauthorized:
+            return C.Error.authorization
+        case .unknown:
+            return C.Error.unknown
+        }
+    }
     
 }
